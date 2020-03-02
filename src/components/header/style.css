@@ -1,0 +1,11 @@
+.headBar{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+}
+
+.headBox{
+    border-bottom: 2px solid gray;
+    background-color: lightblue;
+}
