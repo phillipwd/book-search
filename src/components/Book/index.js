@@ -7,7 +7,7 @@ function Book(props) {
             <p>by {props.book.authors}</p>
             <p>description: {props.book.description}</p>
             <img src={props.book.imageURL}/>
-            <a src={props.book.linkURL}>Visit this book</a>
+            <a href={props.book.linkURL} target="_blank" >Visit this book</a>
         </div>
     )
 }
