@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import {Link} from "react-router-dom"
 
 function Header() {
   return (
@@ -7,8 +8,8 @@ function Header() {
       <div className="headBar">
         <h1>Google Books</h1>
         {/* links here */}
-        <span>search </span>
-        <span>saved</span>
+        <Link to="/">search</Link>
+        <Link to="/saved">saved</Link>
       </div>
     </div>
   );
